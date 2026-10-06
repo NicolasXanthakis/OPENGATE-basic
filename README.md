@@ -22,3 +22,15 @@ Set `sim.visu = True` to view geometry and tracks.
 
 Run from the project root:
 python examples/photon_water.py
+
+## Photon attenuation
+
+`examples/attenuation.py` simulates 511 keV photons passing
+through water slabs of different thicknesses.
+
+Plots direct transmission with statistical error bars and
+fits an exponential curve. Example fit: μ ≈ 0.0966 cm⁻¹.
+
+Run: python examples/attenuation.py
+
+Plots, CSV data and ROOT files are saved in output/.
