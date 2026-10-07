@@ -34,3 +34,15 @@ fits an exponential curve. Example fit: μ ≈ 0.0966 cm⁻¹.
 Run: python examples/attenuation.py
 
 Plots, CSV data and ROOT files are saved in output/.
+
+## Nuclear decay of radioisotopes inside a phantom
+
+`examples/f18_water.py` simulates fluorine-18 uniformly distributed
+inside a cylindrical plastic phantom.
+
+Models radioactive decay to oxygen-18, positron transport and
+annihilation, followed by transport of the resulting gamma photons.
+
+Run: python examples/f18_water.py
+
+
