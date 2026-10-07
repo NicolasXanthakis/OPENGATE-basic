@@ -43,6 +43,10 @@ inside a cylindrical plastic phantom.
 Models radioactive decay to oxygen-18, positron transport and
 annihilation, followed by transport of the resulting gamma photons.
 
+$$
+{}^{18}_{9}\mathrm{F} \rightarrow {}^{18}_{8}\mathrm{O} + e^{+} + \nu_e
+$$
+
 Run: python examples/f18_water.py
 
 
